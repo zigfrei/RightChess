@@ -1,0 +1,8 @@
+.button-registration__body {
+  @include button-reset;
+  background-color: $buttonColor;
+  width: 218px;
+  height: 48px;
+  border-radius: 8px;
+  color: $textColor;
+}
