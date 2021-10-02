@@ -5,6 +5,7 @@
 
 @import "./modules/blocks/page/page.scss";
 @import "./modules/blocks/page/__header/page__header.scss";
+@import "./modules/blocks/page/__intro/page__intro.scss";
 
 @import "./modules/blocks/header/header.scss";
 
@@ -14,4 +15,11 @@
 @import "./modules/blocks/button-registration/__body/button-registration__body.scss";
 @import "./modules/blocks/button-registration/__label/button-registration__label.scss";
 @import "./modules/blocks/button-registration/__label-img/button-registration__label-img.scss";
+
+@import "./modules/blocks/intro/intro.scss";
+@import "./modules/blocks/intro/__label/intro__label.scss";
+@import "./modules/blocks/intro/__title/intro__title.scss";
+@import "./modules/blocks/intro/__paragraf/intro__paragraf.scss";
+@import "./modules/blocks/intro/__chess-img/intro__chess-img.scss";
+@import "./modules/blocks/intro/__image/intro__image.scss";
 

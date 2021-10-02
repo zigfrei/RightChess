@@ -1,0 +1,16 @@
+.page__intro {
+  @include block-possition;
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 930px) {
+  .page__intro {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .page__intro {
+    padding-bottom: 20px;
+  }
+}

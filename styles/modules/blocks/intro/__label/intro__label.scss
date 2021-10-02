@@ -1,0 +1,25 @@
+.intro__label {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: $secondBackgroundColor;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 90%;
+  color: $textColor;
+  text-transform: uppercase;
+  padding-top: 18px;
+  padding-left: 18px;
+  width: 84px;
+  height: 50px;
+  border-radius: 0 42px 42px 0;
+}
+
+@media screen and (max-width: 530px) {
+  .intro__label {
+    width: 63px;
+    height: 40px;
+    font-size: 12px;
+    padding-top: 14.5px;
+    padding-left: 14px;
+  }
+}
