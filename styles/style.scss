@@ -1,0 +1,17 @@
+@import "./modules/variables.scss";
+@import "./modules/mixins.scss";
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import "./modules/blocks/page/page.scss";
+@import "./modules/blocks/page/__header/page__header.scss";
+
+@import "./modules/blocks/header/header.scss";
+@import "./modules/blocks/header/__button-key/header__button-key.scss";
+@import "./modules/blocks/header/__button-registration/header__button-registration.scss";
+
+@import "./modules/blocks/button-registration/button-registration.scss";
+@import "./modules/blocks/button-registration/__body/button-registration__body.scss";
+@import "./modules/blocks/button-registration/__label/button-registration__label.scss";
+@import "./modules/blocks/button-registration/__label-img/button-registration__label-img.scss";
+
