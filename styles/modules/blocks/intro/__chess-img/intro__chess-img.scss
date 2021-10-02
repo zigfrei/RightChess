@@ -1,0 +1,15 @@
+.intro__chess-img {
+  background-image: url("../images/intro/chess-img.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 416px;
+  height: 104px;
+}
+
+@media screen and (max-width: 530px) {
+  .intro__chess-img {
+    background-image: url("../images/intro/chess-img-small.svg");
+    width: 280px;
+    height: 70px;
+  }
+}
