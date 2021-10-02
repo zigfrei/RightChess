@@ -2,5 +2,21 @@
   margin: 0 50px 0 0;
   padding: 0;
   color: $textColor;
-  justify-self: flex-end;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16.5px;
+}
+
+@media screen and (max-width: 782px) {
+  .button-registration__label {
+    font-size: 13px;
+    line-height: 16.25px;
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .button-registration__label {
+    display: none;
+  }
 }
