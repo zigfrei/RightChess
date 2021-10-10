@@ -1,0 +1,13 @@
+.battles__cards {
+margin: 0 0 110px 0;
+}
+
+@media screen and (max-width: 650px) {
+  .battles__cards * {
+    display: none;
+    margin: 0;
+  }
+  .battles__cards {
+    margin: 0;
+  }
+}

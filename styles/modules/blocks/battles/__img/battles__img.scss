@@ -1,0 +1,23 @@
+.battles__img {
+  display: block;
+  background-image: url("../images/battles/image.svg");
+  position: absolute;
+  left: 100px;
+  bottom: 0;
+  width: 440px;
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1110px) {
+  .battles__img {
+    left: -220px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .battles__img {
+display: none;
+  }
+}

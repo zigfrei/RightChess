@@ -1,0 +1,17 @@
+.battles__chess-img {
+  background-image: url("../images/battles/image-chess.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 416px;
+  height: 104px;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 530px) {
+  .battles__chess-img {
+    background-image: url("../images/battles/image-chess-small.svg");
+    width: 280px;
+    height: 70px;
+    margin: 60px 0 20px 0;
+  }
+}

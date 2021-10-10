@@ -1,0 +1,18 @@
+.team__cards {
+  margin: 0 0 251px 0;
+}
+
+@media screen and (max-width: 1110px) {
+  .team__cards {
+    margin-bottom: 171px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .team__cards * {
+    display: none;
+  }
+  .team__cards {
+    margin: 0;
+  }
+}

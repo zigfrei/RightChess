@@ -1,0 +1,14 @@
+.footer__title {
+  color: $textColor;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  margin: 0 0 20px 0;
+}
+
+@media screen and (max-width: 650px) {
+  .footer__title {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+}
