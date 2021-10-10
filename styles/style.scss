@@ -6,6 +6,9 @@
 @import "./modules/blocks/page/page.scss";
 @import "./modules/blocks/page/__header/page__header.scss";
 @import "./modules/blocks/page/__intro/page__intro.scss";
+@import "./modules/blocks/page/__team/page__team.scss";
+@import "./modules/blocks/page/__battles/page__battles.scss";
+@import "./modules/blocks/page/__footer/page__footer.scss";
 
 @import "./modules/blocks/header/header.scss";
 
@@ -22,4 +25,47 @@
 @import "./modules/blocks/intro/__paragraf/intro__paragraf.scss";
 @import "./modules/blocks/intro/__chess-img/intro__chess-img.scss";
 @import "./modules/blocks/intro/__image/intro__image.scss";
+
+@import "./modules/blocks/team/team.scss";
+@import "./modules/blocks/team/__title/team__title.scss";
+@import "./modules/blocks/team/__paragraf/team__paragraf.scss";
+@import "./modules/blocks/team/__cards/team__cards.scss";
+@import "./modules/blocks/team/__point/team__point.scss";
+@import "./modules/blocks/team/__point-copy/team__point-copy.scss";
+
+@import "./modules/blocks/cards/cards.scss";
+@import "./modules/blocks/cards/__card/cards__card.scss";
+@import "./modules/blocks/cards/__card-img/cards__card-img.scss";
+@import "./modules/blocks/cards/__card-subtitle/cards__card-subtitle.scss";
+@import "./modules/blocks/cards/__card-title/cards__card-title.scss";
+@import "./modules/blocks/team/__img/team__img.scss";
+
+@import "./modules/blocks/battles/battles.scss";
+@import "./modules/blocks/battles/__title/battles__title.scss";
+@import "./modules/blocks/battles/__paragraf/battles__paragraf.scss";
+@import "./modules/blocks/battles/__cards/battles__cards.scss";
+@import "./modules/blocks/battles/__img/battles__img.scss";
+@import "./modules/blocks/battles/__chess-img/battles__chess-img.scss";
+
+@import "./modules/blocks/footer/footer.scss";
+@import "./modules/blocks/footer/__button-key/footer__button-key.scss";
+@import "./modules/blocks/footer/__button-registration/footer__button-registration.scss";
+@import "./modules/blocks/footer/__title/footer__title.scss";
+@import "./modules/blocks/footer/__copyright/footer__copyright.scss";
+
+@import "./modules/blocks/popup/popup.scss";
+@import "./modules/blocks/popup/__container/popup__container.scss";
+@import "./modules/blocks/popup/__form/popup__form.scss";
+@import "./modules/blocks/popup/__img/popup__img.scss";
+@import "./modules/blocks/popup/__title/popup__title.scss";
+@import "./modules/blocks/popup/__button-registration/popup__button-registration.scss";
+@import "./modules/blocks/popup/__field/popup__field.scss";
+@import "./modules/blocks/popup/_opened/popup_opened.scss";
+
+@import "./modules/blocks/swiper/swiper.scss";
+@import "./modules/blocks/swiper/__slide/swiper__slide.scss";
+@import "./modules/blocks/swiper/__slide-img/swiper__slide-img.scss";
+@import "./modules/blocks/swiper/__pagination/swiper__pagination.scss";
+@import "./modules/blocks/swiper/__pagination-bullet/swiper__pagination-bullet.scss";
+@import "./modules/blocks/swiper/__wrapper/swiper__wrapper.scss";
 

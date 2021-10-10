@@ -1,0 +1,30 @@
+.team__img {
+  display: block;
+  background-image: url("../images/team/team-image.svg");
+  position: absolute;
+  left: 0;
+  bottom: 60px;
+  width: 660px;
+  height: 440px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1110px) {
+  .team__img {
+    background-image: url("../images/team/team-image-small.svg");
+    bottom: 50px;
+    width: 180px;
+    height: 360px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .team__img {
+    background-image: url("../images/team/team-image-mobile.svg");
+    position: static;
+    margin: 0 auto;
+    width: 280px;
+    height: 140px;
+  }
+}

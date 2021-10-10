@@ -1,0 +1,19 @@
+.page__team {
+  @include block-possition;
+  padding-top: 80px;
+  padding-bottom: 171px;
+}
+
+@media screen and (max-width: 1110px) {
+  .page__team {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .page__team {
+    padding: 20px 20px 0 20px;
+  }
+}

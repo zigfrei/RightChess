@@ -1,0 +1,12 @@
+.page__footer {
+    @include block-possition;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  @media screen and (max-width: 650px) {
+    .page__footer {
+      padding: 40px 0 40px 0;
+    }
+  }
+
