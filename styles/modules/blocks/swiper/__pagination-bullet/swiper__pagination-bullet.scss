@@ -1,12 +1,4 @@
-@media screen and (min-width: 651px) {
-  .swiper-pagination-bullet {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .swiper-pagination-bullet {
-    background-color: white;
-    margin: 0 5px;
-  }
+.swiper-pagination-bullet {
+  background-color: white;
+  margin: 0 5px;
 }

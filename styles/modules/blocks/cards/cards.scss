@@ -1,24 +1,5 @@
 .cards {
   list-style: none;
   display: flex;
-  flex-flow: row wrap;
   padding: 0;
-  justify-content: space-between;
-}
-
-@media screen and (max-width: 1110px) {
-  .cards {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    gap: 28px;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .cards {
-    overflow-x: unset;
-    scroll-snap-type: unset;
-    gap: 0;
-  }
 }

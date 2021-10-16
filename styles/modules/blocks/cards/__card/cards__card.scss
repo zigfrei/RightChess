@@ -2,15 +2,3 @@
   display: flex;
   flex-direction: column;
 }
-
-@media screen and (max-width: 1110px) {
-  .cards__card {
-    scroll-snap-align: start;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .cards__card {
-    scroll-snap-align: unset;
-  }
-}

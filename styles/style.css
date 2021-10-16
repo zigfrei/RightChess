@@ -439,12 +439,8 @@
   }
 }
 @media screen and (max-width: 650px) {
-  .team__cards * {
-    display: none;
-  }
-
   .team__cards {
-    margin: 0;
+    margin-bottom: 60px;
   }
 }
 .team__point {
@@ -488,43 +484,14 @@
 .cards {
   list-style: none;
   display: flex;
-  flex-flow: row wrap;
   padding: 0;
-  justify-content: space-between;
 }
 
-@media screen and (max-width: 1110px) {
-  .cards {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    -ms-scroll-snap-type: x mandatory;
-        scroll-snap-type: x mandatory;
-    gap: 28px;
-  }
-}
-@media screen and (max-width: 650px) {
-  .cards {
-    overflow-x: unset;
-    -ms-scroll-snap-type: unset;
-        scroll-snap-type: unset;
-    gap: 0;
-  }
-}
 .cards__card {
   display: flex;
   flex-direction: column;
 }
 
-@media screen and (max-width: 1110px) {
-  .cards__card {
-    scroll-snap-align: start;
-  }
-}
-@media screen and (max-width: 650px) {
-  .cards__card {
-    scroll-snap-align: unset;
-  }
-}
 .cards__card-img {
   margin: 0 0 30px 0;
   padding: 0;
@@ -644,11 +611,6 @@
 }
 
 @media screen and (max-width: 650px) {
-  .battles__cards * {
-    display: none;
-    margin: 0;
-  }
-
   .battles__cards {
     margin: 0;
   }
@@ -899,17 +861,22 @@
   opacity: 1;
 }
 
+.swiper__slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  min-width: 320px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transition-property: transform;
+}
+
 @media screen and (max-width: 650px) {
   .swiper__slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
+    min-width: 280px;
     flex-shrink: 0;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    transition-property: transform;
   }
 }
 @media screen and (max-width: 650px) {
@@ -922,31 +889,18 @@
        object-fit: cover;
   }
 }
-@media screen and (max-width: 650px) {
-  .swiper__pagination {
-    position: relative;
-    top: 0;
-    margin: 0 calc(50% - 24px);
-  }
+.swiper__pagination {
+  position: relative;
+  top: 0;
+  margin: 0 calc(50% - 24px);
 }
-@media screen and (min-width: 651px) {
-  .swiper-pagination-bullet {
-    display: none;
-  }
-}
-@media screen and (max-width: 650px) {
-  .swiper-pagination-bullet {
-    background-color: white;
-    margin: 0 5px;
-  }
-}
-@media screen and (min-width: 651px) {
-  .swiper__wrapper * {
-    display: none;
-    margin: 0;
-  }
 
-  .swiper__wrapper {
-    margin: 0;
+@media screen and (min-width: 651px) {
+  .swiper__pagination {
+    display: none;
   }
+}
+.swiper-pagination-bullet {
+  background-color: white;
+  margin: 0 5px;
 }/*# sourceMappingURL=style.css.map */

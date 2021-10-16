@@ -1,8 +1,23 @@
 const swiper = new Swiper(".swiper", {
   slideClass: "swiper__slide",
-  slidesPerView: 1,
-  spaceBetween: 20,
-  centeredSlides: true,
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    650: {
+      slidesPerView: 1.8,
+      spaceBetween: 28,
+    },
+    1110: {
+      spaceBetween: 40,
+    },
+    1250: {
+      slidesPerView: 3,
+      spaceBetween: 80,
+    },
+  },
+
   pagination: {
     el: ".swiper__pagination",
     type: "bullets",
@@ -13,7 +28,9 @@ const swiper = new Swiper(".swiper", {
 //Находим кнопки, модально окно, поля ввода, форму
 const popup = document.querySelector(".popup");
 const keyButton = document.querySelectorAll(".button-key");
-const registrationButton = document.querySelectorAll(".button-registration__body");
+const registrationButton = document.querySelectorAll(
+  ".button-registration__body"
+);
 const nameInput = document.querySelector("#name");
 const emailInput = document.querySelector("#email");
 const formElement = popup.querySelector(".popup__form");
@@ -28,17 +45,17 @@ function closePopup(popup) {
 
 //При клике на кнопке открыть модальное окно
 
-keyButton.forEach(function(el){
+keyButton.forEach(function (el) {
   el.addEventListener("click", () => {
     openPopup(popup);
   });
-})
+});
 
-registrationButton.forEach(function(el){
+registrationButton.forEach(function (el) {
   el.addEventListener("click", () => {
     openPopup(popup);
   });
-})
+});
 
 //При клике мимо области закрыть модальное окно
 
