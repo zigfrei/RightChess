@@ -1,6 +1,11 @@
 .popup__button-registration {
-  margin-top: 143px;
+  margin-top: 133px;
   margin-left: 100px;
   margin-right: 100px;
 }
 
+@media screen and (min-width: 1110px) {
+  .popup__button-registration {
+    margin-top: 230px;
+  }
+}

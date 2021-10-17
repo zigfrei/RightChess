@@ -27,9 +27,8 @@ const swiper = new Swiper(".swiper", {
 
 //Находим кнопки, модально окно, поля ввода, форму
 const popup = document.querySelector(".popup");
-const keyButton = document.querySelectorAll(".button-key");
 const registrationButton = document.querySelectorAll(
-  ".button-registration__body"
+  ".button-registration"
 );
 const nameInput = document.querySelector("#name");
 const emailInput = document.querySelector("#email");
@@ -44,12 +43,6 @@ function closePopup(popup) {
 }
 
 //При клике на кнопке открыть модальное окно
-
-keyButton.forEach(function (el) {
-  el.addEventListener("click", () => {
-    openPopup(popup);
-  });
-});
 
 registrationButton.forEach(function (el) {
   el.addEventListener("click", () => {

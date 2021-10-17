@@ -1,10 +1,6 @@
 .battles__paragraf {
   margin: 0;
   padding: 0 0 110px 0;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 130%;
-  color: $textColor;
   max-width: 500px;
 }
 
@@ -16,7 +12,6 @@
 
 @media screen and (max-width: 650px) {
   .battles__paragraf {
-    font-size: 12px;
     max-width: 280px;
     padding-bottom: 60px;
     margin: 0 auto;

@@ -2,7 +2,7 @@
   display: block;
   background-image: url("../images/intro/intro-big.svg");
   position: absolute;
-  top: 10px;
+  top: 150px;
   right: 0;
   width: 480px;
   height: 640px;
@@ -12,17 +12,17 @@
 
 @media screen and (max-width: 930px) {
   .intro__image {
-    top: 160px;
-    right: -260px;
+    background-image: url("../images/intro/intro-medium.svg");
+    top: 300px;
     height: 520px;
-    width: 390px;
+    width: 130px;
   }
 }
 
 @media screen and (max-width: 530px) {
   .intro__image {
     background-image: url("../images/intro/intro-small.svg");
-    top: 0;
+    top: 92px;
     right: 20px;
     height: 60px;
     width: 120px;

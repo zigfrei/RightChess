@@ -14,13 +14,11 @@
   <div class="page">
 
     <header class="header page__header">
-      <button class="button-key"></button>
-      <div class="button-registration">
-        <p class="button-registration__label">Вступайте в клуб
-          <img src="./images/button-registration/arrow.svg" alt="указательная стрелка"
-            class="button-registration__label-img">
-        </p>
-        <button class="button-registration__body">Зарегистрироваться</button>
+      <div class="chess-logo"></div>
+      <div class="header__registration">
+        <p class="header__label">Вступайте в клуб</p>
+        <div class="header__label-img"></div>
+        <button class="button-registration">Зарегистрироваться</button>
       </div>
     </header>
 
@@ -28,16 +26,16 @@
 
       <section class="intro page__intro">
         <div class="intro__label">Клуб</div>
-        <h2 class="intro__title">Правильные шахматы</h2>
-        <p class="intro__paragraf">Приходите к нам, играть в шахматы! Сразитесь классическом поединке, блиц состязании и
+        <h2 class="intro__title headings headings__title">Правильные шахматы</h2>
+        <p class="intro__paragraf headings headings__subtitle">Приходите к нам, играть в шахматы! Сразитесь классическом поединке, блиц состязании и
           бою с гройсмейстером.</p>
         <div class="intro__chess-img"></div>
         <div class="intro__image"></div>
       </section>
 
       <section class="team page__team swiper">
-        <h2 class="team__title">Наша команда</h2>
-        <p class="team__paragraf">Лучшие шахматисты и шахматистки любители России, гройсмейстеры, с ними играть — одно
+        <h2 class="team__title headings headings__title">Наша команда</h2>
+        <p class="team__paragraf headings headings__subtitle">Лучшие шахматисты и шахматистки любители России, гройсмейстеры, с ними играть — одно
           удовольствие!</p>
 
         <ul class="team__cards cards swiper__wrapper">
@@ -63,14 +61,14 @@
         </ul>
         <div class="swiper__pagination"></div>
 
-        <h2 class="team__point">Хочешь в команду?</h2>
-        <p class="team__point-copy">Свяжись с нами и мы обсудим все детали присоеденения к команде.</p>
+        <h2 class="team__point headings headings__title">Хочешь в команду?</h2>
+        <p class="team__point-copy headings headings__subtitle">Свяжись с нами и мы обсудим все детали присоеденения к команде.</p>
         <div class="team__img"></div>
       </section>
 
       <section class="battles page__battles swiper">
-        <h2 class="battles__title">Сражения</h2>
-        <p class="battles__paragraf">Сражайтесь в парах и приятно проводите время. Если хотите прокачать свои навыки —
+        <h2 class="battles__title headings headings__title">Сражения</h2>
+        <p class="battles__paragraf headings headings__subtitle">Сражайтесь в парах и приятно проводите время. Если хотите прокачать свои навыки —
           сыграйте с нашими шахматистами.</p>
 
         <ul class=" battles__cards cards swiper__wrapper">
@@ -98,22 +96,20 @@
     </main>
 
     <footer class="footer page__footer">
-      <button class="footer__button-key button-key"></button>
-      <div class="footer__button-registration button-registration">
-        <button class="button-registration__body">Зарегистрироваться</button>
-      </div>
-      <h3 class="footer__title">Шахматный клуб в Москве.</h3>
+      <div class="footer__logo chess-logo"></div>
+      <button class="footer__button-registration button-registration">Зарегистрироваться</button>
+      <h3 class="footer__title headings headings__subtitle">Шахматный клуб в Москве.</h3>
       <p class="footer__copyright">© Chees Club.</p>
     </footer>
 
     <section class="popup">
       <div class="popup__container">
-        <div class="popup__img"></div>
+        <div class="popup__logo chess-logo"></div>
         <h2 class="popup__title">Регистрация</h2>
         <form name="submit-form" class="popup__form" action="#" method="POST">
           <input type="text" id="name" name="name" class="popup__field" placeholder="Имя">
           <input type="text" id="email" name="email" class="popup__field" placeholder="Email">
-          <button type="submit" class="popup__button-registration button-registration__body">Зарегистрироваться</button>
+          <button type="submit" class="popup__button-registration button-registration">Зарегистрироваться</button>
         </form>
 
       </div>

@@ -1,16 +1,11 @@
 .team__title {
   margin: 0;
   padding: 0 0 40px 0;
-  font-weight: 600;
-  font-size: 70px;
-  line-height: 90%;
-  color: $textColor;
 }
 
 @media screen and (max-width: 650px) {
   .team__title {
     padding-bottom: 20px;
-    font-size: 40px;
     max-width: 280px;
   }
 }

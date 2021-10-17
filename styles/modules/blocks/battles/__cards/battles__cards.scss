@@ -2,8 +2,14 @@
 margin: 0 0 110px 0;
 }
 
+@media screen and (max-width: 1110px) {
+  .battles__cards {
+    margin-bottom: 140px;
+  }
+}
+
 @media screen and (max-width: 650px) {
   .battles__cards {
-    margin: 0;
+    margin-bottom: 30px;
   }
 }

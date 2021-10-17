@@ -10,16 +10,18 @@
 @import "./modules/blocks/page/__battles/page__battles.scss";
 @import "./modules/blocks/page/__footer/page__footer.scss";
 
-@import "./modules/blocks/header/header.scss";
+@import "./modules/blocks/headings/__title/headings__title.scss";
+@import "./modules/blocks/headings/__subtitle/headings__subtitle.scss";
 
-@import "./modules/blocks/button-key/button-key.scss";
+@import "./modules/blocks/header/header.scss";
+@import "./modules/blocks/header/__registration/header__registration.scss";
+@import "./modules/blocks/header/__label/header__label.scss";
+@import "./modules/blocks/header/__label-img/header__label-img.scss";
+
+@import "./modules/blocks/chess-logo/chess-logo.scss";
 
 @import "./modules/blocks/button-registration/button-registration.scss";
-@import "./modules/blocks/button-registration/__body/button-registration__body.scss";
-@import "./modules/blocks/button-registration/__label/button-registration__label.scss";
-@import "./modules/blocks/button-registration/__label-img/button-registration__label-img.scss";
 
-@import "./modules/blocks/intro/intro.scss";
 @import "./modules/blocks/intro/__label/intro__label.scss";
 @import "./modules/blocks/intro/__title/intro__title.scss";
 @import "./modules/blocks/intro/__paragraf/intro__paragraf.scss";
@@ -48,7 +50,7 @@
 @import "./modules/blocks/battles/__chess-img/battles__chess-img.scss";
 
 @import "./modules/blocks/footer/footer.scss";
-@import "./modules/blocks/footer/__button-key/footer__button-key.scss";
+@import "./modules/blocks/footer/__logo/footer__logo.scss";
 @import "./modules/blocks/footer/__button-registration/footer__button-registration.scss";
 @import "./modules/blocks/footer/__title/footer__title.scss";
 @import "./modules/blocks/footer/__copyright/footer__copyright.scss";
@@ -56,7 +58,6 @@
 @import "./modules/blocks/popup/popup.scss";
 @import "./modules/blocks/popup/__container/popup__container.scss";
 @import "./modules/blocks/popup/__form/popup__form.scss";
-@import "./modules/blocks/popup/__img/popup__img.scss";
 @import "./modules/blocks/popup/__title/popup__title.scss";
 @import "./modules/blocks/popup/__button-registration/popup__button-registration.scss";
 @import "./modules/blocks/popup/__field/popup__field.scss";
