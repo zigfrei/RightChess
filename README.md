@@ -10,4 +10,5 @@
 
 ## Ссылка на GitHub Pages
 --------
-  
+ [Right Chess]( https://zigfrei.github.io/RightChess/ "Вступай в клуб")
+  <https://zigfrei.github.io/RightChess/>
