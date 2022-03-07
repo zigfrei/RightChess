@@ -1,0 +1,18 @@
+.cards__card-title {
+  margin: 30px 0 10px 0;
+  padding: 0;
+  color: $textColor;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 130%;
+  text-transform: uppercase;
+  letter-spacing: 0.055em;
+}
+
+@media screen and (max-width: 650px) {
+  .cards__card-title {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+}

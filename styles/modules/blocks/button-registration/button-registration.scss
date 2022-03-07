@@ -1,0 +1,35 @@
+.button-registration {
+  @include button-reset;
+  background-color: $buttonColor;
+  width: 218px;
+  height: 48px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: $textColor;
+  transition: background-color 0.3s;
+}
+
+.button-registration:hover {
+  background-color: $buttonHoverColor;
+  transition: background-color 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+  .header .button-registration {
+    font-size: 13px;
+    width: 184px;
+    height: 44px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header .button-registration,
+  .footer .button-registration,
+  .popup .button-registration {
+    font-size: 10px;
+    width: 140px;
+    height: 30px;
+  }
+}

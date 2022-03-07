@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Правильные шахматы</title>
+</head>
+
+<body>
+  <div class="page">
+
+    <header class="header page__header">
+      <div class="chess-logo"></div>
+      <div class="header__registration">
+        <p class="header__label">Вступайте в клуб</p>
+        <div class="header__label-img"></div>
+        <button class="button-registration">Зарегистрироваться</button>
+      </div>
+    </header>
+
+    <main class="main">
+
+      <section class="intro page__intro">
+        <div class="intro__label">Клуб</div>
+        <h2 class="intro__title headings headings__title">Правильные шахматы</h2>
+        <p class="intro__paragraf headings headings__subtitle">Приходите к нам, играть в шахматы! Сразитесь классическом поединке, блиц состязании и
+          бою с гройсмейстером.</p>
+        <div class="intro__chess-img"></div>
+        <div class="intro__image"></div>
+      </section>
+
+      <section class="team page__team swiper">
+        <h2 class="team__title headings headings__title">Наша команда</h2>
+        <p class="team__paragraf headings headings__subtitle">Лучшие шахматисты и шахматистки любители России, гройсмейстеры, с ними играть — одно
+          удовольствие!</p>
+
+        <ul class="team__cards cards swiper__wrapper">
+
+          <li class="cards__card swiper__slide">
+            <img src="./images/team/person1.jpg" alt="Аватар первой карточки" class="cards__card-img">
+            <h3 class="cards__card-title">Андрей</h3>
+            <p class="cards__card-subtitle">Шахматист, писатель.</p>
+          </li>
+
+          <li class="cards__card swiper__slide">
+            <img src="./images/team/person2.jpg" alt="Аватар второй карточки" class="cards__card-img">
+            <h3 class="cards__card-title">Никита</h3>
+            <p class="cards__card-subtitle">Шахматист, кулинар.</p>
+          </li>
+
+          <li class="cards__card swiper__slide">
+            <img src="./images/team/person3.jpg" alt="Аватар третьей карточки" class="cards__card-img">
+            <h3 class="cards__card-title">Алексей</h3>
+            <p class="cards__card-subtitle">Шахматист, геймер.</p>
+          </li>
+
+        </ul>
+        <div class="swiper__pagination"></div>
+
+        <h2 class="team__point headings headings__title">Хочешь в команду?</h2>
+        <p class="team__point-copy headings headings__subtitle">Свяжись с нами и мы обсудим все детали присоеденения к команде.</p>
+        <div class="team__img"></div>
+      </section>
+
+      <section class="battles page__battles swiper">
+        <h2 class="battles__title headings headings__title">Сражения</h2>
+        <p class="battles__paragraf headings headings__subtitle">Сражайтесь в парах и приятно проводите время. Если хотите прокачать свои навыки —
+          сыграйте с нашими шахматистами.</p>
+
+        <ul class=" battles__cards cards swiper__wrapper">
+
+          <li class="cards__card swiper__slide">
+            <img src="./images/battles/battles1.jpg" alt="Фото первой игры" class="cards__card-img">
+          </li>
+
+          <li class="cards__card swiper__slide">
+            <img src="./images/battles/battles2.jpg" alt="Фото второй игры" class="cards__card-img">
+          </li>
+
+          <li class="cards__card swiper__slide">
+            <img src="./images/battles/battles3.jpg" alt="Фото третьей игры" class="cards__card-img">
+          </li>
+
+        </ul>
+
+        <div class="swiper__pagination"></div>
+        <div class="battles__img"></div>
+        <div class="battles__chess-img"></div>
+
+      </section>
+
+    </main>
+
+    <footer class="footer page__footer">
+      <div class="footer__logo chess-logo"></div>
+      <button class="footer__button-registration button-registration">Зарегистрироваться</button>
+      <h3 class="footer__title headings headings__subtitle">Шахматный клуб в Москве.</h3>
+      <p class="footer__copyright">© Chees Club.</p>
+    </footer>
+
+    <section class="popup">
+      <div class="popup__container">
+        <div class="popup__logo chess-logo"></div>
+        <h2 class="popup__title">Регистрация</h2>
+        <form name="submit-form" class="popup__form" action="#" method="POST">
+          <input type="text" id="name" name="name" class="popup__field" placeholder="Имя">
+          <input type="text" id="email" name="email" class="popup__field" placeholder="Email">
+          <button type="submit" class="popup__button-registration button-registration">Зарегистрироваться</button>
+        </form>
+
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./scripts/index.js"></script>
+  </div>
+</body>
+
+</html>

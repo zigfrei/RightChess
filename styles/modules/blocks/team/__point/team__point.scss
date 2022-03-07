@@ -1,0 +1,20 @@
+.team__point {
+  position: relative;
+  margin: 0 0 40px 0;
+  max-width: 520px;
+  align-self: flex-end;
+  z-index: 1;
+}
+
+@media screen and (max-width: 650px) {
+  .team__point  {
+    margin: 62px 0 20px 0;
+    max-width: 280px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .team__point  {
+    max-width: 478px;
+  }
+}

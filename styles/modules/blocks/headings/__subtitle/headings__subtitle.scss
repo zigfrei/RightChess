@@ -1,0 +1,11 @@
+.headings__subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: $textColor;
+}
+@media screen and (max-width: 530px) {
+  .headings__subtitle {
+    font-size: 12px;
+  }
+}

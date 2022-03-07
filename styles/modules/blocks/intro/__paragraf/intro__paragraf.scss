@@ -1,0 +1,20 @@
+.intro__paragraf {
+  margin: 0 0 182px 0;
+  padding: 0;
+  max-width: 500px;
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 930px) {
+  .intro__paragraf {
+    margin-bottom: 212px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .intro__paragraf {
+    max-width: 280px;
+    margin-bottom: 111px;
+  }
+}

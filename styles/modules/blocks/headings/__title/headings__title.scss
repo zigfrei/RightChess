@@ -1,0 +1,12 @@
+.headings__title {
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 90%;
+  color: $textColor;
+}
+
+@media screen and (max-width: 530px) {
+  .headings__title {
+    font-size: 40px;
+  }
+}

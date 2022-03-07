@@ -1,0 +1,20 @@
+.header__label-img {
+  background-image: url("../images/header/arrow.svg");
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 12px;
+  margin: 0 50px 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 782px) {
+  .header__label-img {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .header__label-img {
+    display: none;
+  }
+}

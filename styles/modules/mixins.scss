@@ -1,0 +1,28 @@
+@mixin button-reset {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  border: none;
+}
+
+@mixin block-possition {
+  margin: 0 auto;
+  padding-left: 160px;
+  padding-right: 160px;
+  max-width: 1440px;
+
+  @media screen and (max-width: 768px) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  @media screen and (max-width: 425px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

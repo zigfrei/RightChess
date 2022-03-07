@@ -1,0 +1,15 @@
+.chess-logo {
+  background-image: url("../images/chess-logo/logo.svg");
+  width: 38px;
+  height: 54px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (max-width: 425px) {
+  .header .chess-logo,
+  .popup .chess-logo {
+    width: 26px;
+    height: 36px;
+  }
+}

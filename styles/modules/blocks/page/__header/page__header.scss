@@ -1,0 +1,12 @@
+.page__header {
+  @include block-possition;
+  padding-top: 26px;
+  padding-bottom: 60px;
+}
+
+@media screen and (max-width: 425px) {
+  .page__header {
+    padding-top: 16px;
+    padding-bottom: 40px;
+  }
+}

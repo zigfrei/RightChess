@@ -1,0 +1,884 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+.page {
+  font-family: "Noto Sans", "Arial", sans-serif;
+  margin: 0 auto;
+  background-color: #000;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+.page__header {
+  margin: 0 auto;
+  padding-left: 160px;
+  padding-right: 160px;
+  max-width: 1440px;
+  padding-top: 26px;
+  padding-bottom: 60px;
+}
+@media screen and (max-width: 768px) {
+  .page__header {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .page__header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .page__header {
+    padding-top: 16px;
+    padding-bottom: 40px;
+  }
+}
+.page__intro {
+  margin: 0 auto;
+  padding-left: 160px;
+  padding-right: 160px;
+  max-width: 1440px;
+  padding-bottom: 80px;
+}
+@media screen and (max-width: 768px) {
+  .page__intro {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .page__intro {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .page__intro {
+    padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .page__intro {
+    padding-bottom: 20px;
+  }
+}
+.page__team {
+  margin: 0 auto;
+  padding-left: 160px;
+  padding-right: 160px;
+  max-width: 1440px;
+  padding-top: 80px;
+  padding-bottom: 171px;
+}
+@media screen and (max-width: 768px) {
+  .page__team {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .page__team {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .page__team {
+    padding: 50px 50px 121px 50px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .page__team {
+    padding: 20px 20px 0 20px;
+  }
+}
+.page__battles {
+  margin: 0 auto;
+  padding-left: 160px;
+  padding-right: 160px;
+  max-width: 1440px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+@media screen and (max-width: 768px) {
+  .page__battles {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .page__battles {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .page__battles {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .page__battles {
+    padding: 20px 20px 0 20px;
+  }
+}
+.page__footer {
+  margin: 0 auto;
+  padding-left: 160px;
+  padding-right: 160px;
+  max-width: 1440px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+@media screen and (max-width: 768px) {
+  .page__footer {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .page__footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .page__footer {
+    padding: 40px 0 40px 0;
+  }
+}
+.headings__title {
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 90%;
+  color: #fff;
+}
+
+@media screen and (max-width: 530px) {
+  .headings__title {
+    font-size: 40px;
+  }
+}
+.headings__subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  color: #fff;
+}
+
+@media screen and (max-width: 530px) {
+  .headings__subtitle {
+    font-size: 12px;
+  }
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__registration {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header__label {
+  margin: 0 15px 0 0;
+  padding: 0;
+  color: #fff;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16.5px;
+}
+
+@media screen and (max-width: 782px) {
+  .header__label {
+    font-size: 13px;
+    line-height: 16.25px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .header__label {
+    display: none;
+  }
+}
+.header__label-img {
+  background-image: url("../images/header/arrow.svg");
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 12px;
+  margin: 0 50px 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 782px) {
+  .header__label-img {
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .header__label-img {
+    display: none;
+  }
+}
+.chess-logo {
+  background-image: url("../images/chess-logo/logo.svg");
+  width: 38px;
+  height: 54px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (max-width: 425px) {
+  .header .chess-logo,
+.popup .chess-logo {
+    width: 26px;
+    height: 36px;
+  }
+}
+.button-registration {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  border: none;
+  background-color: #009465;
+  width: 218px;
+  height: 48px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.button-registration:hover {
+  background-color: #066C4C;
+  transition: background-color 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+  .header .button-registration {
+    font-size: 13px;
+    width: 184px;
+    height: 44px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .header .button-registration,
+.footer .button-registration,
+.popup .button-registration {
+    font-size: 10px;
+    width: 140px;
+    height: 30px;
+  }
+}
+.intro__label {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #5036e6;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 90%;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 18px;
+  padding-left: 18px;
+  width: 84px;
+  height: 50px;
+  border-radius: 0 42px 42px 0;
+}
+
+@media screen and (max-width: 530px) {
+  .intro__label {
+    margin-top: 10px;
+    width: 63px;
+    height: 40px;
+    font-size: 12px;
+    padding-top: 14.5px;
+    padding-left: 14px;
+  }
+}
+.intro__title {
+  margin: 70px 0 40px 0;
+  padding: 0;
+  max-width: 500px;
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 530px) {
+  .intro__title {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    max-width: 280px;
+  }
+}
+.intro__paragraf {
+  margin: 0 0 182px 0;
+  padding: 0;
+  max-width: 500px;
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 930px) {
+  .intro__paragraf {
+    margin-bottom: 212px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .intro__paragraf {
+    max-width: 280px;
+    margin-bottom: 111px;
+  }
+}
+.intro__chess-img {
+  background-image: url("../images/intro/chess-img.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 416px;
+  height: 104px;
+}
+
+@media screen and (max-width: 530px) {
+  .intro__chess-img {
+    background-image: url("../images/intro/chess-img-small.svg");
+    width: 280px;
+    height: 70px;
+  }
+}
+.intro__image {
+  display: block;
+  background-image: url("../images/intro/intro-big.svg");
+  position: absolute;
+  top: 150px;
+  right: 0;
+  width: 480px;
+  height: 640px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 930px) {
+  .intro__image {
+    background-image: url("../images/intro/intro-medium.svg");
+    top: 300px;
+    height: 520px;
+    width: 130px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .intro__image {
+    background-image: url("../images/intro/intro-small.svg");
+    top: 92px;
+    right: 20px;
+    height: 60px;
+    width: 120px;
+  }
+}
+.team {
+  background-color: #5036e6;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.team__title {
+  margin: 0;
+  padding: 0 0 40px 0;
+}
+
+@media screen and (max-width: 650px) {
+  .team__title {
+    padding-bottom: 20px;
+    max-width: 280px;
+  }
+}
+.team__paragraf {
+  margin: 0;
+  padding: 0 0 110px 0;
+  max-width: 500px;
+}
+
+@media screen and (max-width: 1110px) {
+  .team__paragraf {
+    padding-bottom: 140px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .team__paragraf {
+    max-width: 280px;
+    padding-bottom: 60px;
+  }
+}
+.team__cards {
+  margin: 0 0 251px 0;
+}
+
+@media screen and (max-width: 1110px) {
+  .team__cards {
+    margin-bottom: 171px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .team__cards {
+    margin-bottom: 0;
+  }
+}
+.team__point {
+  position: relative;
+  margin: 0 0 40px 0;
+  max-width: 520px;
+  align-self: flex-end;
+  z-index: 1;
+}
+
+@media screen and (max-width: 650px) {
+  .team__point {
+    margin: 62px 0 20px 0;
+    max-width: 280px;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .team__point {
+    max-width: 478px;
+  }
+}
+.team__point-copy {
+  position: relative;
+  margin: 0;
+  max-width: 520px;
+  align-self: flex-end;
+  z-index: 1;
+}
+
+@media screen and (max-width: 650px) {
+  .team__point-copy {
+    margin-bottom: 60px;
+    max-width: 280px;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .team__point-copy {
+    max-width: 478px;
+  }
+}
+.cards {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.cards__card {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards__card-img {
+  margin: 0;
+  padding: 0;
+  width: 320px;
+  height: 320px;
+  border-radius: 15px;
+}
+
+.cards__card-subtitle {
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+  margin: 0;
+}
+
+@media screen and (max-width: 650px) {
+  .cards__card-subtitle {
+    margin-bottom: 30px;
+    font-size: 12px;
+  }
+}
+.cards__card-title {
+  margin: 30px 0 10px 0;
+  padding: 0;
+  color: #fff;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 130%;
+  text-transform: uppercase;
+  letter-spacing: 0.055em;
+}
+
+@media screen and (max-width: 650px) {
+  .cards__card-title {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+}
+.team__img {
+  display: block;
+  background-image: url("../images/team/team-image.svg");
+  position: absolute;
+  left: 0;
+  bottom: 60px;
+  width: 660px;
+  height: 440px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1330px) {
+  .team__img {
+    background-image: url("../images/team/team-image-small.svg");
+    bottom: 50px;
+    width: 180px;
+    height: 360px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .team__img {
+    background-image: url("../images/team/team-image-mobile.svg");
+    position: static;
+    margin: 0 auto;
+    width: 280px;
+    height: 140px;
+  }
+}
+.battles {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+
+.battles__title {
+  margin: 0;
+  padding: 0 0 40px 0;
+}
+
+@media screen and (max-width: 650px) {
+  .battles__title {
+    padding-bottom: 20px;
+    max-width: 280px;
+  }
+}
+.battles__paragraf {
+  margin: 0;
+  padding: 0 0 110px 0;
+  max-width: 500px;
+}
+
+@media screen and (max-width: 1110px) {
+  .battles__paragraf {
+    padding-bottom: 140px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .battles__paragraf {
+    max-width: 280px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+  }
+}
+.battles__cards {
+  margin: 0 0 110px 0;
+}
+
+@media screen and (max-width: 1110px) {
+  .battles__cards {
+    margin-bottom: 140px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .battles__cards {
+    margin-bottom: 30px;
+  }
+}
+.battles__img {
+  display: block;
+  background-image: url("../images/battles/image.svg");
+  position: absolute;
+  left: 100px;
+  bottom: 0;
+  width: 440px;
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1110px) {
+  .battles__img {
+    left: -220px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .battles__img {
+    display: none;
+  }
+}
+.battles__chess-img {
+  background-image: url("../images/battles/image-chess.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 416px;
+  height: 104px;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 530px) {
+  .battles__chess-img {
+    background-image: url("../images/battles/image-chess-small.svg");
+    width: 280px;
+    height: 70px;
+    margin: 61px 0 20px 0;
+  }
+}
+.footer {
+  background-color: #5036e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__logo {
+  margin: 0 0 60px 0;
+}
+
+@media screen and (max-width: 650px) {
+  .footer__logo {
+    margin-bottom: 40px;
+  }
+}
+.footer__button-registration {
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 650px) {
+  .footer__button-registration {
+    margin-bottom: 40px;
+  }
+}
+.footer__title {
+  margin: 0 0 20px 0;
+}
+
+@media screen and (max-width: 650px) {
+  .footer__title {
+    margin-bottom: 10px;
+  }
+}
+.footer__copyright {
+  color: #8E9199;
+  font-weight: 400;
+  font-size: 15.1px;
+  line-height: 20px;
+  margin: 0;
+}
+
+@media screen and (max-width: 650px) {
+  .footer__copyright {
+    font-size: 12px;
+  }
+}
+.popup {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s linear;
+}
+
+.popup__container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .popup__container {
+    width: 280px;
+  }
+}
+.popup__form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  height: 100%;
+}
+
+.popup__title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 90%;
+  margin: 50px 0 78px 0;
+}
+
+@media screen and (max-width: 425px) {
+  .popup__title {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+.popup__button-registration {
+  margin-top: 133px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+@media screen and (min-width: 1110px) {
+  .popup__button-registration {
+    margin-top: 230px;
+  }
+}
+.popup__field {
+  background-color: #1A1A1A;
+  margin: 0 0 20px 0;
+  padding: 0 0 0 28px;
+  width: 500px;
+  height: 48px;
+  border: 0;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 1%;
+  color: #fff;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.popup__field:hover {
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+
+.popup__field:focus {
+  opacity: 1;
+  outline-color: #5036e6;
+  outline-style: solid;
+}
+
+::-moz-placeholder {
+  opacity: 1;
+  color: #fff;
+  -moz-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+:-ms-input-placeholder {
+  opacity: 1;
+  color: #fff;
+  -ms-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+::placeholder {
+  opacity: 1;
+  color: #fff;
+  transition: opacity 0.3s;
+}
+
+:focus::-moz-placeholder {
+  opacity: 0;
+}
+
+:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+
+:focus::placeholder {
+  opacity: 0;
+}
+
+@media screen and (max-width: 518px) {
+  .popup__field {
+    width: 280px;
+    height: 42px;
+    margin-bottom: 10px;
+  }
+}
+.popup_opened {
+  visibility: visible;
+  opacity: 1;
+}
+
+.swiper__slide {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  min-width: 320px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transition-property: transform;
+}
+
+@media screen and (max-width: 650px) {
+  .swiper__slide {
+    min-width: 280px;
+    flex-shrink: 0;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 650px) {
+  .swiper__slide img {
+    margin: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+.swiper__pagination {
+  position: relative;
+  top: 0;
+  margin: 0 calc(50% - 24px);
+  display: flex;
+}
+
+@media screen and (min-width: 651px) {
+  .swiper__pagination {
+    display: none;
+  }
+}
+.swiper-pagination-bullet {
+  background-color: white;
+  margin: 0 5px;
+}/*# sourceMappingURL=style.css.map */
